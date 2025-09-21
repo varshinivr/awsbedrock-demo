@@ -26,7 +26,7 @@ You must use a version of boto3 that supports bedrock-agent-runtime (eg. version
 6. Create alias as required to capture model behaviour at different points
 7. Prepare and test the agent through the chat interface
 
-Features and working of application:
+# Features and working of application:
 1. Any general questions are not answered
 2. For any product description related info, data is fetched from knowledgebase (s3 bucket) - Productcatalog and productdescription.csv
 3. If you exact count of product/change the number of items, then invoke the lambda function. To invoke this pragmatically, a question like "get product inventory" would use the openAPI schema to invoke the right lambda function. So the numbers are exact and the count can be modified and altered in the local database through this lambda function itself. 
