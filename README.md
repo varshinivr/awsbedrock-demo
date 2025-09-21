@@ -1,6 +1,8 @@
 # awsbedrock-demo
+# Overview
+This project demonstrates an AWS Bedrock Agent integrated with a knowledge base and action groups to handle product catalog queries. It acts as a FAQ bot and document summariser and combines vector search for product descriptions with Lambda functions for real-time inventory operations too
 
-The following files are added as part of this demo:
+The following files are added as part of this project:
 
 Business/BusinessFunction.py
 This lambda function is configured in Action Group.
